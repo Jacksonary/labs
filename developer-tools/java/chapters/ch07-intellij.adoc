@@ -100,6 +100,6 @@ ADD dockercon.war /opt/jboss/wildfly/standalone/deployments/
 ... Select "`After launch`", change the URL to "`http://192.168.99.100:18080/dockercon/index.jsp`"
 ... In "`Before launch`", add "`Build Artifacts`" and select the artifact
 .. "`Container`" tab
-... Add "`Port bindings`" for "`8080:18080`"
+... Add "`Port bindings`" for "`8083:8080`"
 . View, Tool Windows, Docker, connect to it
 . Run the project
